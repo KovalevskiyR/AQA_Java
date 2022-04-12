@@ -3,7 +3,8 @@ package Lesson2;
 public class SolutionWithLeapYear {
 
     public static boolean isLeapYear(int year) {
-        return year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
+        boolean isLeap = year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
+        return isLeap;
     }
 
     public static void main(String[] args) {

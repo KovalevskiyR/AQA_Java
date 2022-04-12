@@ -5,7 +5,8 @@ public class Solution3 {
     }
 
     public static boolean checkPositiveNumber(int a) {
-        return 0 <= a;
+        boolean checkNumber = 0 <= a;
+        return checkNumber;
     }
 
     public static void main(String[] args) {
