@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class Solution5 {
 
-
     public static void main(String[] args) {
         int[] array = new int[]{1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
 
@@ -15,7 +14,6 @@ public class Solution5 {
                 array[i] = 0;
             }
         }
-
         System.out.println(Arrays.toString(array));
     }
 }
