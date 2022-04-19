@@ -16,11 +16,6 @@ public class Solution1 {
                 "kornienko2323@gmail,com", "+380635657780", 3400, 34);
         users[4] = new Employee("Tom Johnson", "designer",
                 "johnson@gmail,com", "+380666509871", 2000, 42);
-
-        for (Employee user : users) {
-            if (user.getAge() > 40) {
-                user.getInfo();
-            }
-        }
+        Employee.getAgeUnder40(users);
     }
 }

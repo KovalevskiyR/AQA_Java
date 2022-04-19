@@ -65,6 +65,14 @@ public class Employee {
         this.age = age;
     }
 
+    public static void getAgeUnder40(Employee[] users) {
+        for (Employee user : users) {
+            if (user.getAge() > 40) {
+                user.getInfo();
+            }
+        }
+    }
+
     public void getInfo() {
         System.out.printf("Name: %s\nPosition: %s\nEmail: %s\nPhone: %s\nSalary: %d\nAge: %d\n",
                 getNameSurname(), getPosition(), getEmail(), getPhone(), getSalary(), getAge());
