@@ -12,7 +12,7 @@ public class ArrayCheck {
             }
             for (int j = 0; j < array[i].length; j++) {
                 try {
-                    sum += +Integer.parseInt(array[i][j]);
+                    sum += Integer.parseInt(array[i][j]);
                 } catch (NumberFormatException e) {
                     throw new MyArrayDataException(i, j);
                 }

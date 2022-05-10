@@ -7,6 +7,7 @@ public class MyArrayDataException extends Exception {
     MyArrayDataException(int i, int j) {
         this.i = i;
         this.j = j;
+        System.out.println("Incorrect array's value, error in: " + getI() + "x" + getJ());
     }
 
     public int getI() {
